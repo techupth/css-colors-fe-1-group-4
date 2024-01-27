@@ -1,1 +1,34 @@
 /* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: hsl(0, 100%, 70%); /* Color 1: Reddish */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Main content styles */
+  main {
+    background-color: hsl(240, 100%, 70%); /* Color 2: Bluish */
+    padding: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: hsla(0, 50%, 100%, 0.5); /* Color 3: White with 50% opacity */
+    color: black; /* Adjust text color as needed */
+    padding: 20px;
+    text-align: center;
+  }
+  
