@@ -1,1 +1,22 @@
 /* Start coding here */
+
+.gradient-background{
+    height: 100vh;
+    background: linear-gradient(to right, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    padding: 20px;
+    background-color: hsla(0, 50%, 100%, 0.5);
+    border-radius: 15px;
+    text-align: center;
+}
+.content-box header{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
